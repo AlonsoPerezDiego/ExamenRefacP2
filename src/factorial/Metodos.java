@@ -11,4 +11,14 @@ package factorial;
  */
 public class Metodos {
     
+    public void calculos(){    
+        int f = 1;
+        for (int i = 8; i >= 1; i--){
+            f = f * i;
+        }  
+    }
+    
+    public void mostrar(){
+        
+    }
 }
