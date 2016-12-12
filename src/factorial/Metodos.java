@@ -11,14 +11,15 @@ package factorial;
  */
 public class Metodos {
     
-    public void calculos(){    
-        int f = 1;
-        for (int i = 8; i >= 1; i--){
-            f = f * i;
-        }  
+    private int calculos(){    
+        int numeroCalc = 1;
+        for (int multiplicador = 8; multiplicador >= 1; multiplicador--){
+            numeroCalc = numeroCalc * multiplicador;
+        }
+        return numeroCalc;
     }
     
     public void mostrar(){
-        
+        System.out.println(calculos());
     }
 }
