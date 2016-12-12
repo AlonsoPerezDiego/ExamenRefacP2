@@ -18,14 +18,14 @@ public class Factorial {
     
    int i;
    if (j == 0)
-f = 1;
+    f = 1;
    else
    {
-f = 1;
-for (i = j; i >= 1; i--)
-{
-    f = f * i;
-}
+    f = 1;
+    for (i = j; i >= 1; i--)
+    {
+        f = f * i;
+    }
    }    
   
  
